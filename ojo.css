@@ -1,0 +1,85 @@
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding-top: 40px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    width: 200px;
+    padding: 6px;
+    border: 1px solid #000;
+}
+
+.btn-entrar {
+    margin: 0 auto;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+#mensaje {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* OJITO */
+
+.eye-section {
+    background-color: #bab5ae;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eye-white {
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    border-radius: 100px / 50px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.eye-white.closed {
+    height: 10px;
+}
+
+.iris {
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.pupil {
+    background-color: black;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
